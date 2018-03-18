@@ -306,6 +306,7 @@
 
 #Facials img, #attractive-services img, #body-works img{
 	max-width:100%;
+	border-radius:5px;
 }
 
 #Facials p{
@@ -387,7 +388,29 @@ ul.benifits{
 		background:url(../Images/Map.png) no-repeat -600px 0px;
 		background-size:cover;
 	}
+	/************************* Styles for services.html ***************************************/
+	.service-info{
+		padding-bottom:3rem;
+	}
+
+	.service-info .down-arrow{
+		padding-top: 2rem;
+	}
+
+	#Facials{
+		grid-column: 1/3;
+		width:50%;
+		margin: 0 auto;
+		margin-top: -2rem;
+	}
+
+	#body-works h2{
+		padding-top: 6.5rem;
+	}
 }
+
+
+
 
 @media screen and (min-width: 1200px){ /*big screens*/
 	.nav-header{
@@ -541,6 +564,44 @@ ul.benifits{
 
 	footer{
 		border: none;
+	}
+/************************* Styles for services.html ***************************************/
+	.service-info h1, .service-info .down-arrow, .service-info p{
+		padding:5rem 0;
+		font-size: 2rem;
+		word-spacing: 120%;
+		line-height: 150%;
+		letter-spacing: 110%;
+	}
+
+	#Facials img{
+		min-width:600px;
+		height:600px;
+	}
+
+	#attractive-services img, #body-works img{
+		max-height: 400px;
+		max-width: 500px;
+	}
+
+	#Facials{
+		grid-column: 1/3;
+		grid-row: 1/3;
+		width:100%;
+	}
+
+	#attractive-services{
+		grid-row:1/2;
+	}
+
+	#body-works{
+		grid-row: 2/3;
+		padding-top: 10rem;
+	}
+
+	#body-works, #attractive-services{
+		margin-top: -2rem;
+		grid-column: 3/5;
 	}
 
 }
