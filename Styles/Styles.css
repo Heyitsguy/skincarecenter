@@ -300,11 +300,11 @@
 	height:auto;  
 }
 
-#Facials,{
+#Facials{
 	margin-top:-2rem;
 }
 
-#Facials img, #attractive-services img{
+#Facials img, #attractive-services img, #body-works img{
 	max-width:100%;
 }
 
