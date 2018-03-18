@@ -1,0 +1,575 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+	body{
+		/*background-color:rgba( 255, 131, 98, .4);*/
+		background-image: url(../Images/background.jpg);
+		font-family: Lato, sans-serif;
+		color: #554F49;
+	}
+
+	.container{
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.learn-more{
+		font-size: .75rem;
+		background-color: #316dce;
+		color:#f4f4f4;
+		border-radius: 8px;
+		padding:.5rem;
+	}
+
+	.brand{
+		text-align: center;
+		margin:1rem 0 0rem 0;
+	}
+
+	.logo{
+		font-family: 'Great Vibes', cursive;
+		padding:1rem;
+		background-color: coral;
+		border:1px solid coral;
+		border-radius: 50%;
+		color:#f4f4f4;
+
+	}
+
+	.main-nav ul{
+		width: 100%;
+	}
+
+	.nav-list{
+		list-style: none;
+		display: none;
+		padding: .75rem;
+		text-align: center;
+		border-bottom: 1px solid gray;
+		background-color: #C3AA94;
+	}
+
+	.navListOn{
+		display:block;
+	}
+
+	li a{
+		text-decoration: none;
+		color: #f4f4f4;
+	}
+
+	.toggle{
+		width: 100%;
+		padding: 10px 20px;
+		background-color: #D99F55;
+		text-align: right;
+		font-size:1.5rem;
+		display:block;
+	}
+
+	#menu{
+		color: #f4f4f4;
+	}
+
+	#spa-lady{
+		width:180%;
+		left: -40%;
+
+	}
+
+	.first-section{
+		position:relative;
+		overflow: hidden;
+		max-height:355px;
+	}
+
+	#Bay-Ridge{
+		position:absolute;
+		top: 10%;
+		left: 40%;
+		font-family: 'Lato',sans-serif;
+		border: 1px coral solid;
+		border-radius:5px; 
+		padding:1rem; 
+		width: 30%;
+		background-color:rgba( 255, 131, 98, .7);
+		color: #f4f4f4;
+		text-align: center;
+	}
+
+	#Skincare-Center{
+		position: absolute;
+		bottom: 45%;
+		right:15%;
+		font-family: 'Lato',sans-serif;
+		border: 1px coral solid;
+		border-radius:5px; 
+		padding:1rem; 
+		width: 30%;
+		background-color:rgba( 255, 131, 98, .7);
+		color: #f4f4f4;
+		text-align: center;
+	}
+	.second-section{
+		background:url(../Images/background.jpg);
+		color: #554F49;
+	}
+
+	.second-section h1{
+		text-align:center;
+		padding:2rem 0;
+	}
+
+	hr.Featured {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin-bottom: 2rem;
+}
+
+	.wrapper{
+		display:grid;
+		grid-template-columns:1fr;
+		grid-gap:1rem;
+		margin-top: 2rem;
+	}
+
+	.wrapper > div{
+		line-height: 145%;
+		overflow: hidden;
+		margin-top:2rem;
+	}
+
+	.description-line{
+		background-color: #ccc;
+		width: 20%;
+		height: .1rem;
+		margin:.75rem 0 .75rem 0;
+	}
+
+	.one img{
+		width: 100%;
+		border-radius: 10px;
+		/*padding-top: 1rem;*/
+	}
+
+	.three img, .five img, .seven{
+		width: 100%;
+		border-radius: 10px;
+		/*padding-top: 6.0rem;*/
+	}
+
+	.seven{
+		border: dotted gray 1px;
+		border-radius: 8px;
+		padding:1rem;
+		margin: 3rem 0;
+	}
+
+	.seven h1{
+		border: 5px dashed black;
+		padding:10px;
+		margin: 3rem 0;
+	}
+
+	.last{
+		text-align: center;
+		padding-top: 2rem;
+		color:#554F49;
+		background:url(../Images/Map.png) no-repeat -800px 0px;
+		background-size:cover;
+	}
+
+	.layer, .layer-sec{
+		background-color: rgba( 255, 131, 98, .4);
+		margin-top: -2rem;
+		overflow: auto;
+	}
+
+	div > h2{
+		padding: 2rem 0;
+	}
+
+	.location, .social-media,.contact{
+		line-height: 200%;
+		border: 1px solid gray;
+		border-radius: 8px;
+		background-color: rgba( 255, 131, 98, .5);
+		margin-top: 2rem;
+		padding-bottom: 2rem;
+
+	}
+
+	.get-direction a, .get-direction{
+		text-decoration: none;
+		color: gray;
+		background-color: #f4f4f4;
+		padding:.5em;
+		border-radius:5px;
+	}
+
+	.location-icons{
+	padding-right:1rem;
+	}
+
+	.social-media{
+		text-align: center;
+
+	}
+
+	.fb-icon, .yelp-icon{
+	font-size: 4rem;
+	display: inline;
+	padding-right: 2rem;
+}
+
+	.fb-icon a{
+		text-decoration: none;
+		color:#3b5998;
+}
+
+	.yelp-icon a{
+		color: #c41200;
+	}
+
+	.contact input, .contact textarea{
+	width: 80%;
+	border: none;
+	border-radius: 5px;
+	background-color: rgba( 255, 131, 98, .8);
+	border-bottom: solid 1px gray;
+	/*font-size: 1rem;*/
+	margin-bottom: 1rem;
+}
+
+	.contact input{
+		height:30px;
+	}
+
+	.contact textarea{
+		height:100px;
+	}
+
+	.contact-submit{
+		width: 80%;
+		font-size: .75rem;
+		background-color: #4286f4;
+		color:#f4f4f4;
+		border-radius: 8px;
+		padding:.5rem;
+	}
+
+	.alert{
+		text-align: center;
+		padding:.75rem;
+		background:#79c879;
+		color: #f4f4f4;
+		width:80%;
+		margin:0 auto;
+		border-radius: 5px;
+		margin-bottom:.75rem;
+		display:none;
+	}
+
+	footer{
+	text-align: center;
+	font-family: Lato, sans-serif;
+	padding: 2rem;
+	margin-top: 1rem;
+	border-top: solid gray 1px;
+}
+
+/************************* Styles for services.html ***************************************/
+
+.service-info{
+	text-align: center;
+	line-height: 145%;
+	background-color: #f4f4f4;
+}
+
+.service-info h1, .service-info p{
+	padding:1rem 0;
+}
+
+.service-info img{
+	width:100%;
+	height:auto;  
+}
+
+#Facials,{
+	margin-top:-2rem;
+}
+
+#Facials img, #attractive-services img{
+	max-width:100%;
+}
+
+#Facials p{
+	margin-bottom:1rem;
+}
+
+ul.benifits{
+	list-style-type: square; 
+}
+
+.see-service{
+	display:block;
+	width:50%;
+	margin: 1rem auto;
+}
+
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+    .toggle{
+    	display: none;
+    }
+
+    .brand{
+		margin:0rem 0 1rem 0;
+
+	}
+
+	.nav-header{
+		background:url(../Images/spa-background.jpg);
+		height: 100%;
+		padding-top:1rem;
+	}
+		.nav-links{
+		text-align:center;
+		/*background-color: #C3AA94;*/
+		height:2rem;
+		margin-bottom:1rem;
+	}
+  
+	.nav-list{
+		list-style: none;
+		display: inline;
+		padding:1rem 1rem;
+		margin-right: 1rem;
+		text-align: center;
+		border-radius:5px;
+	}
+
+	.nav-list:hover{
+		background-color: rgb(153, 127, 105);
+	}
+	
+	
+
+	.first-section{
+		max-height: 500px;
+	}
+
+	#spa-lady{
+		width:100%;
+		
+
+	}
+	.wrapper{
+		display:grid;
+		grid-template-columns:1fr 1fr;
+	}
+	.four, .six{
+		/*padding-top:28%;*/
+	}
+	.seven{
+		grid-column: 1/3;
+		width:60%;
+		margin: 3rem auto;
+	}
+	.last{
+		text-align: center;
+		padding-top: 2rem;
+		color:#554F49;
+		background:url(../Images/Map.png) no-repeat -600px 0px;
+		background-size:cover;
+	}
+}
+
+@media screen and (min-width: 1200px){ /*big screens*/
+	.nav-header{
+		background:url(../Images/spa-background.jpg);
+		height: 100%;
+		padding-top:1rem;
+	}
+
+	.toggle{
+    	display: none;
+    }
+
+    .brand{
+		margin:0rem 0 .5rem 0;
+
+	}
+
+	.nav-links{
+		text-align:center;
+		/*background-color: #C3AA94;*/
+		height:2rem;
+		margin-bottom:1rem;
+	}
+
+  
+	.nav-list{
+		list-style: none;
+		display: inline;
+		padding:1rem 2rem;
+		margin-right: 2rem;
+		text-align: center;
+		border-radius:5px;
+	}
+
+	.nav-list:hover{
+		background-color: rgb(153, 127, 105);
+	}
+	
+
+	.first-section{
+		max-height:1000px;
+	}
+
+	#Bay-Ridge, #Skincare-Center{
+		font-size:2rem;
+	}
+
+	#spa-lady{
+		width:100%;
+	}
+
+    .layer{
+	background-color: rgba( 255, 131, 98, .4);
+	overflow: auto;
+	}
+
+	.wrapper{
+		display:grid;
+		grid-template-columns:1fr 1fr 1fr 1fr;
+		text-align: center;
+	}
+	
+	.seven{
+		grid-column: 3/4;
+		grid-row: 2/3;
+		height: 90%;
+		margin: 2rem 0 10rem 0rem;
+		background-color:#C3AA94;
+	}
+
+	.description-line{
+		background-color: #ccc;
+		width: 30%;
+		margin:1rem auto;
+		height: .1rem;
+		/*margin:.75rem 0 .75rem 0;*/
+	}
+	.last{
+		text-align: center;
+		padding-top: 2rem;
+		color:#554F49;
+		background:url(../Images/Map.png) no-repeat 0px 0px;
+		background-size:cover;
+		position: relative;
+		height: 1000px;
+	}
+
+	.layer-sec{
+		background-color: rgba( 255, 131, 98, .4);
+		margin-top: -2rem;
+		height: 1000px;
+		overflow:auto;
+	}
+
+	div > h2{
+		padding: 2rem 0;
+	}
+
+	.location{
+		width:30%;
+		position: absolute;
+		top: 100px;
+		left:100px;
+
+	}
+
+	.location-icons{
+	padding-right:1rem;
+	}
+
+	.social-media{
+		text-align: center;
+		width:20%;
+		position: absolute;
+		top:500px;
+		left:200px;
+
+	}
+
+	.fb-icon, .yelp-icon{
+	font-size: 4rem;
+	display: inline;
+	padding-right: 2rem;
+}
+
+	.fb-icon a{
+		text-decoration: none;
+		color:#3b5998;
+}
+
+	.yelp-icon a{
+		color: #c41200;
+	}
+
+	.contact{
+		width:40%;
+		position: absolute;
+		top: 80px;
+		right:100px;
+	}
+
+	.contact input{
+		height:50px;
+		font-size:16px;
+	}
+
+	.contact textarea{
+		height:200px;
+		font-size: 16px;
+	}
+
+	footer{
+		border: none;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
