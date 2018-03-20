@@ -567,11 +567,15 @@ ul.benifits{
 	}
 /************************* Styles for services.html ***************************************/
 	.service-info h1, .service-info .down-arrow, .service-info p{
-		padding:5rem 0;
+		padding:3rem 0;
 		font-size: 2rem;
 		word-spacing: 120%;
 		line-height: 150%;
 		letter-spacing: 110%;
+	}
+
+	#Facials p, #Facials li {
+		text-align: left;
 	}
 
 	#Facials img{
