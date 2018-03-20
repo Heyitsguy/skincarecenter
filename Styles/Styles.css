@@ -323,6 +323,14 @@ ul.benifits{
 	margin: 1rem auto;
 }
 
+a:link{
+	text-decoration: none;
+}
+
+/*****************************Styles for Facials Page ***********/
+
+
+
 @media screen and (min-width: 601px) and (max-width: 1200px) {
     .toggle{
     	display: none;
@@ -430,17 +438,15 @@ ul.benifits{
 
 	.nav-links{
 		text-align:center;
-		/*background-color: #C3AA94;*/
 		height:2rem;
-		margin-bottom:1rem;
+		margin:1rem auto;
 	}
 
-  
 	.nav-list{
 		list-style: none;
 		display: inline;
 		padding:1rem 2rem;
-		margin-right: 2rem;
+		margin-right: 5rem;
 		text-align: center;
 		border-radius:5px;
 	}
@@ -581,11 +587,16 @@ ul.benifits{
 	#Facials img{
 		min-width:600px;
 		height:600px;
+		margin-left:2rem;
+		margin-top: 3rem;
+		border-radius: 10px;
 	}
 
 	#attractive-services img, #body-works img{
 		max-height: 400px;
 		max-width: 500px;
+		margin-top: 3rem;
+		border-radius: 10px;
 	}
 
 	#Facials{
