@@ -4,6 +4,11 @@
 	box-sizing: border-box;
 }
 
+	hr.style-four {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
 
 	body{
 		/*background-color:rgba( 255, 131, 98, .4);*/
@@ -328,8 +333,38 @@ a:link{
 }
 
 /*****************************Styles for Facials Page ***********/
+.back-button span{
+	margin:2rem 1rem 1rem 1rem;
+	font-size:2rem;
+}
 
+.intro{
+	text-align: center;
+	margin-bottom: 2rem;
+}
 
+.showcase{
+	width: 85%;
+	margin:0 auto;
+	background-color:rgb(232, 203, 178); 
+	line-height: 150%;
+	word-spacing: 115%;
+	letter-spacing: 115%;
+}
+
+.showcase > h2{
+	text-align: center;
+}
+
+.facial-grid{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap:.75rem;
+}
+
+.facial-grid > div{
+	margin-bottom:3rem;
+}
 
 @media screen and (min-width: 601px) and (max-width: 1200px) {
     .toggle{
@@ -348,7 +383,6 @@ a:link{
 	}
 		.nav-links{
 		text-align:center;
-		/*background-color: #C3AA94;*/
 		height:2rem;
 		margin-bottom:1rem;
 	}
