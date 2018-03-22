@@ -332,10 +332,15 @@ a:link{
 	text-decoration: none;
 }
 
-/*****************************Styles for Facials Page ***********/
-.back-button span{
-	margin:2rem 1rem 1rem 1rem;
-	font-size:2rem;
+/*****************************Styles for Facials Page ***************************/
+.fa-chevron-left{
+	margin:1rem;
+	font-size:2rem; 
+}
+
+.service-link{
+	text-decoration: none;
+	color: #554F49;
 }
 
 .intro{
@@ -354,16 +359,27 @@ a:link{
 
 .showcase > h2{
 	text-align: center;
+	margin:1rem 0;
+}
+
+.showcase h2:nth-of-type(1){
+	padding-top:1.5rem;
 }
 
 .facial-grid{
 	display:grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap:.75rem;
+	padding: 1rem;
 }
 
 .facial-grid > div{
 	margin-bottom:3rem;
+}
+
+.add-on-services{
+	margin: 0 auto;
+	text-align: center;
 }
 
 @media screen and (min-width: 601px) and (max-width: 1200px) {
@@ -653,6 +669,20 @@ a:link{
 		grid-column: 3/5;
 	}
 
+	/*************************Facials.html***************************/
+	.facial-grid{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap:2rem;
+	}	
+
+	.fa-chevron-left{
+		display: none;
+	}
+
+	.intro{
+		margin: 3rem;
+	}
 }
 
 
