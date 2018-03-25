@@ -157,16 +157,19 @@
 		margin:.75rem 0 .75rem 0;
 	}
 
+	.fa-caret-right, .fa-caret-left{
+		display: none;
+	}
+
 	.one img{
 		width: 100%;
 		border-radius: 10px;
 		/*padding-top: 1rem;*/
 	}
 
-	.three img, .five img, .seven, .eight img{
+	.three img, .five img, .seven, .eight img,.inner-six img{
 		width: 100%;
 		border-radius: 10px;
-		/*padding-top: 6.0rem;*/
 	}
 
 	.seven{
@@ -174,6 +177,7 @@
 		border-radius: 8px;
 		padding:1rem;
 		margin: 3rem 0;
+		background-color:#C3AA94;
 	}
 
 	.seven h1{
@@ -182,8 +186,8 @@
 		margin: 3rem 0;
 	}
 
-	.inner-eight{
-		display:none;
+	.inner-five, .inner-six{
+		display: none;
 	}
 
 	.last{
@@ -392,6 +396,24 @@ a:link{
 	border: 1px solid #554F49;
 }
 
+/***********************************About Us Page Page********************/
+.about{
+	position: relative;
+}
+
+.leaf{
+	width: 100%;
+}
+
+.about h1{
+	position: absolute;
+	top:10%;
+	left:30%;
+	padding: .75rem;
+	background-color: rgba(244, 244, 244, 0.8);
+	border-radius: 5px;
+}
+
 @media screen and (min-width: 601px) and (max-width: 1200px) {
     .toggle{
     	display: none;
@@ -425,8 +447,6 @@ a:link{
 	.nav-list:hover{
 		background-color: rgb(153, 127, 105);
 	}
-
-
 
 	.first-section{
 		max-height: 500px;
@@ -474,6 +494,11 @@ a:link{
 
 	#body-works h2{
 		padding-top: 6.5rem;
+	}
+	.about h1{
+	position: absolute;
+	top:10%;
+	left:40%;
 	}
 }
 
@@ -539,30 +564,47 @@ a:link{
 		text-align: center;
 	}
 
+	/*.three, .four{
+		display: none;
+	}*/
+
+	.fa-caret-right, .fa-caret-left{
+		display: inline;
+	}
+
 	.seven{
 		grid-column: 3/4;
-		grid-row: 2/3;
+		grid-row: 2	/3;
 		height: 90%;
 		margin: 2rem 0 10rem 0rem;
-		background-color:#C3AA94;
+		margin: auto;
 	}
 
-	.eight{
-		display:grid;
-		grid-template-rows:1fr 1fr;
-		grid-row:2/3;
-		grid-column: 4/5;
+	.seven p{
+		font-size: 1.4rem;
+		margin: 3rem 0 3rem 0;
 	}
 
-	.inner-eight{
+	.seven strong, .seven h1{
+		font-size: 2rem;
+	}
+
+	.five{
+		display: grid;
+		grid-template-rows:1fr 1fr; 
+		grid-column: 2/3;
 		grid-row: 2/3;
-		grid-column:1/2;
-		display: block;
-		margin-top: -3rem;
 	}
 
-	.nine{
-		display: none;
+	.six{
+		display: grid;
+		grid-template-rows: 1fr 1fr;
+		grid-column: 1/2;
+		grid-row: 2/3;
+	}
+
+	.inner-five, .inner-six{
+		display: block;
 	}
 
 	.description-line{
@@ -570,8 +612,8 @@ a:link{
 		width: 30%;
 		margin:1rem auto;
 		height: .1rem;
-		/*margin:.75rem 0 .75rem 0;*/
 	}
+
 	.last{
 		text-align: center;
 		padding-top: 2rem;
@@ -598,7 +640,6 @@ a:link{
 		position: absolute;
 		top: 100px;
 		left:100px;
-
 	}
 
 	.location-icons{
@@ -710,5 +751,11 @@ a:link{
 
 	.intro{
 		margin: 3rem;
+	}
+/*************************About-us.html***************************/
+	.about h1{
+	position: absolute;
+	top:10%;
+	left:45%;
 	}
 }
