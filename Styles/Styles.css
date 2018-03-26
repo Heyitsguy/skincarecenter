@@ -414,6 +414,10 @@ a:link{
 	border-radius: 5px;
 }
 
+.shorter-hr{
+	width:25%;
+}
+
 @media screen and (min-width: 601px) and (max-width: 1200px) {
     .toggle{
     	display: none;
@@ -757,5 +761,8 @@ a:link{
 	position: absolute;
 	top:10%;
 	left:45%;
+	}
+	.about-showcase{
+		max-width:60%;
 	}
 }
