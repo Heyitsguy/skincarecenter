@@ -167,7 +167,12 @@
 		/*padding-top: 1rem;*/
 	}
 
-	.three img, .five img, .seven, .eight img,.inner-six img{
+	.three img, .five img, .seven, .eight img,.inner-six img,{
+		width: 100%;
+		border-radius: 10px;
+	}
+
+	.inner-img{
 		width: 100%;
 		border-radius: 10px;
 	}
@@ -354,7 +359,8 @@ a:link{
 
 .intro{
 	text-align: center;
-	margin-bottom: 2rem;
+	margin: 1rem;
+	padding-top: 1rem;
 }
 
 .showcase{
@@ -416,6 +422,26 @@ a:link{
 
 .shorter-hr{
 	width:25%;
+}
+
+/*************************Featured Treatments*****************/
+.featured-img{
+	width: 90%;
+	display: block;
+	border-radius: 5px;
+	margin:0 auto;
+}
+
+.indent{
+		text-indent: 2rem;
+	}
+
+#ionactive-head{
+		line-height: 150%;
+	}
+
+.featured-description{
+	margin-top: 2rem;
 }
 
 @media screen and (min-width: 601px) and (max-width: 1200px) {
@@ -764,5 +790,30 @@ a:link{
 	}
 	.about-showcase{
 		max-width:60%;
+	}
+/**************************Featured Treatments*********************/
+	.showcase1{
+		overflow: auto;
+		padding-bottom: 4rem;
+		margin-top:3rem;
+	}
+
+	.featured-img{
+	width: 40%;
+	display: block;
+	border-radius: 5px;
+	margin-left: 3rem;
+	float: left;
+	}
+
+	.featured-description{
+		margin-right: 10rem;
+		width: 40%;
+		float:right;
+
+	}
+	.foot{
+		padding-top: 17rem;
+		clear: both;
 	}
 }
