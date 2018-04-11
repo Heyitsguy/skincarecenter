@@ -8,6 +8,30 @@ menu.addEventListener("click", function(){
 		navLists[i].classList.toggle("navListOn");
 	}
 });
+///////////////////////////////////////////////////////////////
+// Modal
+var modal = document.querySelector(".modal");
+var closeBtn = document.querySelector(".close");
+
+window.addEventListener("load",function(){
+      setTimeout(delayedModal,1500);
+});
+
+function delayedModal(){
+	modal.classList.toggle("navListOn");
+}
+
+closeBtn.addEventListener("click", function(){
+	modal.classList.toggle("navListOn");
+});
+
+
+
+
+
+
+
+
 ///////////////////////////////////////////////////////////////////////
  // Initialize Firebase
   var config = {
