@@ -13,12 +13,14 @@ menu.addEventListener("click", function(){
 var modal = document.querySelector(".modal");
 var closeBtn = document.querySelector(".close");
 
-window.addEventListener("load",function(){
-      setTimeout(delayedModal,1500);
-});
-
-function delayedModal(){
-	modal.classList.toggle("navListOn");
+if(!sessionStorage.getItem('popupShown')) {
+	window.addEventListener("load",function(){
+	  setTimeout(delayedModal,1500);
+		function delayedModal(){
+			modal.classList.toggle("navListOn");
+			};
+		sessionStorage.setItem('popupShown', 'true');
+	});
 }
 
 closeBtn.addEventListener("click", function(){

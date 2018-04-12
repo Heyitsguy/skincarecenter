@@ -44,6 +44,8 @@
 		position: relative;
 		border: solid 5px coral;
 		box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.2);
+		animation-name: modal-open;
+		animation-duration: 1s;
 	}
 
 	.deal-img{
@@ -362,6 +364,8 @@
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-gap: 2rem;
+	width:85%;
+	margin: 0 auto;
 }
 
 .package1 img, .package2 img, .package3 img, .package4 img{
@@ -645,7 +649,7 @@ a:link{
 	}
 
 	.deal{
-		margin:10% auto;
+		margin:5% auto;
 		background-color: white;
 		width:30%;
 		position: relative;
@@ -855,6 +859,7 @@ a:link{
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 	}
 
+
 	.package1 img, .package2 img, .package3 img, .package4 img{
 		height:200px;
 	}
@@ -946,4 +951,9 @@ a:link{
 		padding-top: 17rem;
 		clear: both;
 	}
+}
+
+@keyframes modal-open{
+	from{opacity: 0}
+	to {opacity: 1}
 }
