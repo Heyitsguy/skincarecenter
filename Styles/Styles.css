@@ -29,12 +29,12 @@
 
 	.close{
 		border:none;
-		background-color: white;
+		background-color: #eee;
 		font-size: 1.5rem;
 		cursor: pointer;
 		position: absolute;
-		top: 1rem;
-		right: 1rem;
+		top: 5rem;
+		right: 2rem;
 	}
 
 	.deal{
@@ -644,7 +644,7 @@ a:link{
 		font-size: 1.5rem;
 		cursor: pointer;
 		position: absolute;
-		top: 1.5rem;
+		top: .5rem;
 		right: 2.3rem;
 	}
 

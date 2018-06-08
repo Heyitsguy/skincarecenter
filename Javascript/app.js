@@ -8,7 +8,7 @@ menu.addEventListener("click", function(){
 		navLists[i].classList.toggle("navListOn");
 	}
 });
-///////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////
 // Modal
 var modal = document.querySelector(".modal");
 var closeBtn = document.querySelector(".close");
