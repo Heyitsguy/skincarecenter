@@ -276,7 +276,7 @@
 
 	}
 
-	.fb-icon, .yelp-icon{
+	.fb-icon, .yelp-icon, .instagram-icon{
 	font-size: 4rem;
 	display: inline;
 	padding-right: 2rem;
@@ -289,6 +289,10 @@
 
 	.yelp-icon a{
 		color: #c41200;
+	}
+
+	.instagram-icon a{
+		color:rgb(251, 57, 88);
 	}
 
 	.contact input, .contact textarea{
